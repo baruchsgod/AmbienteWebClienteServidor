@@ -1,0 +1,49 @@
+body{
+  background-image: url("../images/desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form{
+  text-align: center;
+}
+
+/* *******CLASSES ***********/
+
+.register_box{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10rem;
+  width: 35%;
+  background-color: #ffffff;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.98;
+
+}
+
+.header_box{
+
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: #0984e3;
+  color:#fff;
+  padding: 3%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Fredoka One', cursive;
+
+}
+
+.header_box h1{
+  margin: 0 auto 8px;
+  color:#dee4e6;
+  font-family: 'Pacifico', cursive;
+  text-shadow: #000 1px 1px 0.5px;
+}
+
+input[type="submit"]{
+  margin-top: 4px;
+}
